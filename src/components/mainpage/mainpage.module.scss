@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #F6F6F6;
+        max-width: 1520px;
+        height: 321px;
+        border-radius: 5px;
+    }
+    &__about{
+    padding: 0px 32px;
+    font-size: 16px;
+    }
+}
+
+.popular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color:white;
+}
+
+.artist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box{
+        display: grid;
+        max-width: 1520px;
+        width: 100%;
+        grid-template-columns: repeat(4,auto);
+        column-gap: 20px;
+        row-gap: 17px;
+    }
+    &__about{
+        max-width: 365px;   
+    }
+    &__disc{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name{
+        color: white;
+        font-size: 16px;
+    }
+    &__btn{
+        border: none;
+        color: white;
+        background-color: black;
+        font-size: 12px;
+    }
+}
+
+.about__us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+}
+
+.find{
+    display: flex;
+    justify-content: center;
+    &__box{
+        max-width: 1520px;
+        width: 100%;
+        background-color: white;
+        height: 321px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__where{
+        padding: 0 32px;
+    }
+}
