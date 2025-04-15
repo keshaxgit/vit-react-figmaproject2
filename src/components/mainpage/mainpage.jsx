@@ -61,7 +61,7 @@ function Main(){
                 </div>
                 <div className={s.artist__about}>
                     <img src={drake} alt="" />
-                    <div className={s.arist__disc}>
+                    <div className={s.artist__disc}>
                         <p className={s.artist__name}>Tyler the creater</p>
                         <button className={s.artist__btn}>перейти</button>
                     </div>

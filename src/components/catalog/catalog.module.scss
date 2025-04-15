@@ -1,0 +1,77 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 92px ;
+    gap: 20px;
+    &__box{
+        max-width: 365px;
+        width: 100%;
+    }
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-width: 365px;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 10px;
+    &__name{
+        text-align: center;
+        padding-top: 11px;
+        padding-bottom: 29px;
+    }
+    &__chose{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 41px;
+        height: 798px;
+    }
+    &__year{
+        display: flex;
+        flex-direction: column;
+        gap:18px;
+    }
+    &__time{
+        display: flex;
+        flex-direction: column;
+        gap: 18px; 
+    }
+    &__genre{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+}
+
+.catalog{
+    display: flex;
+    justify-content: center;
+    &__box{
+        display: grid;
+        max-width: 1135px;
+        width: 100%;
+        grid-template-columns: repeat(3,auto);
+        gap: 0px 20px;
+    }
+    &__pic{
+        width: 100%;
+        max-width: 365px;
+        max-height: 350px;
+        height: 100%;
+    }
+    &__misc{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name{
+        color: white;
+        padding-top: 14px;
+    }
+    &__cost{
+        color: white;
+        padding-top: 14px;
+    }
+}
